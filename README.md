@@ -1,8 +1,9 @@
-###Linux命令行程序 Selpg
+Linux命令行程序 Selpg
 
-####功能 
-从文本输入选入页范围进行处理的实用程序。
-####使用方法
+功能 
+从文本输入选入页范围进行处理的实用程序。 
+
+使用方法
 n代表整数  
 必选参数（要求有序输入）：  
 `-sn`：从第n页开始读取文件.   
@@ -17,7 +18,7 @@ n代表整数
 `./selpg -s1 -e2 -l5 -d1 selpg.go`：从文件selpg.go读取第1到第10行的数据，为每行添加行号，并将结果输出到屏幕。  
 注：当可选参数缺失时，默认命令相当于`./selpg -sn -en -l72 os.Stdin`
 
-####结果截图
+结果截图
 将文件内容输出到屏幕：  
 ![Aaron Swartz](https://github.com/lonelyhope/selpg/blob/master/testPic/3.png?raw=true) 
 
